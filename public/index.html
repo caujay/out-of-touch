@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Out of Touch</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="welcomeTitle">
+      <h1>Welcome to Out of Touch Configuration Panel</h1>
+    </div>
+    <div class="configuratePanel">
+      <p>Enter IP addresses of glove controller and robotic arm</p>
+      <form method="post" action="/test">
+        <label>Glove Controller:</label>
+        <input type="text" name="glove" />
+        <label>Robotic arm:</label>
+        <input type="text" name="arm" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <div class="configuratePanel">
+      <p>Close the connection</p>
+      <form method="post" action="/close">
+        <input type="submit" value="Close" class="closeConnection" />
+      </form>
+    </div>
+  </body>
+</html>

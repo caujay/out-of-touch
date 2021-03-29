@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+  line-height: 1.5;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+
+body.fail {
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  color: #ffffff;
+}
+
+input {
+  display: block;
+  margin: 0.5rem auto;
+}
+
+input[type="submit"] {
+  font-size: 1rem;
+  border: 0;
+  border-radius: 2rem;
+  background-color: #333;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+}
+
+input[type="submit"].closeConnection {
+  font-size: 1rem;
+  border: 0;
+  border-radius: 2rem;
+  background-color: #bf2e34;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+}
+
+label {
+  font-size: 1rem;
+}
+
+.welcomeTitle {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.configuratePanel {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.75rem 3.5rem;
+  margin: 5rem auto;
+  border: none;
+  background-color: #ffffff;
+  color: #444;
+  border-radius: 10rem;
+  width: 30rem;
+}
